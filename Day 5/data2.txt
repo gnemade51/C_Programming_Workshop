@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+	FILE *;
+	int n,c=0;
+	=open("Password_authentication_using_pointer.c","r");
+	i(!=NULL)
+	{
+		print("////ile opened successully////\n");
+	}
+	else
+	{
+		print("////ile can not be opened////\n");
+	}
+	while(n!=EOF)
+	{
+		n=getc();
+		print("%c",n);
+		c++;
+	}
+	print("no. o char=%d\n",c);
+	close();
+}ÿ
